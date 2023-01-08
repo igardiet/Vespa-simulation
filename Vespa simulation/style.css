@@ -1,0 +1,1242 @@
+* {
+  font-family: 'Fuzzy Bubbles', cursive;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #E4FDFF;
+}
+header {
+  width: 70%;
+  margin: 0 auto;
+
+}
+.logo {
+  width: 200px;
+  margin: 50px auto;
+  display: block;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.menu-navegation ul {
+  list-style: none;
+  font-size: 25px;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-navegation ul li {
+  transition: 1s;
+}
+
+.menu-navegation ul li:hover {
+  cursor: pointer;
+  color: #39979C;
+  font-size: 30px;
+}
+
+.menu-navegation ul li:active {
+  cursor: pointer;
+  color: #39979C;
+  font-size: 30px;
+}
+
+.menu-navegation_notShow {
+  display:none
+}
+
+.home {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.home_notShow{
+  display:none;
+}
+
+.h2{
+  display:block;
+}
+
+.vespaHistory {
+  display:flex;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.old-vespa_img {
+  width: 550px;
+  margin: 0 auto;
+  margin-top: -100px;
+}
+
+.vespaHistory div {
+  width: 50%
+}
+
+.vespaHistory div {
+  width: 50%
+}
+
+
+/*/////////////////////Footer///////////////*/
+
+.secondary-logo {
+  width: 150px;
+  display:block;
+  margin:0 auto;
+  
+}
+
+footer {
+  width: 70%;
+  height: 30vh; 
+  margin: 0 auto;
+  background: #39979d;
+
+}
+.footer-box {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3vh;
+  background: #39979d;
+  margin-bottom: 0px;
+  padding-bottom: 30px;
+}
+.footer-section {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-section p {
+  transition: 1s;
+}
+
+.footer-section p:hover {
+  cursor: pointer;
+  color: #E4FDFF;
+  font-size: 20px;
+}
+
+.footer-section p, footer-section h3 {
+  color: black;
+}
+
+.social-network{
+  width: 35px;
+}
+
+.facebook:hover, .instagram:hover, .twitter:hover {
+  
+  color:  #000000;
+  cursor: pointer;
+  transform: rotate(3600deg);
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+
+.abajo {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  background: #39979d;
+  border-top: 1px solid #f7f1e3;
+  
+}
+
+/* GTS SUPER  */
+
+.gts-super {
+  display: none;
+}
+
+.gts-super_show {
+  display: block;
+}
+
+.top-product {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.small-screen-product {
+  width: 5%;
+
+}
+
+.small-screen-product img {
+  width: 100%;
+  border: 1px solid #636e72;
+  transition: 1s;
+}
+
+.small-screen-product img:hover {
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 1px 5px 15px 5px #39979C;
+}
+
+.product-picture{
+  width: 55%;
+}
+.product-picture img {
+  width: 100%;
+}
+
+.bike-colors img {
+  width: 7px;
+  height: 7px;
+  padding-right: 20px;
+  margin-bottom: 80px;
+  
+}
+
+.product-description {
+  width: 40%;
+  align-content: center;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.prices {
+  display: flex;
+  justify-content: center;
+}
+
+.old-price {
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.actual-price {
+  padding: 20px;
+  border: 1px solid #01b050;
+  border-radius: 100%;
+  background: #01b050;
+  color: #f7f1e3;
+}
+
+.buy-button {
+  border: 1px solid #F70003;
+  background-color: #F70003;
+  border-radius: 5px;
+  color: #f7f1e3;
+  width: 70%;
+  padding: 10px 0;
+  font-size: 30px;
+  margin-top: 40px;
+  transition: .5s;
+}
+
+.buy-button:hover {
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 1px 5px 15px 5px #F70003;
+}
+
+.botton-product {
+  
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.botton-product h3 {
+  font-size: 2rem;
+  color: #636e72;
+  border-bottom: 1px solid #636e72 ;
+}
+
+.bike-colors{
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+ 
+}
+
+.bike-colors img{
+  width: 20%;
+  height: 10%;
+}
+
+.name-colors{
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.name-colors h4{
+  width: 20%;
+  height: 10%;
+  margin-bottom: 50px;
+}
+
+.gts-super-moto {
+  transition: 1s;
+}
+
+.gts-super-moto:hover {
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 25%
+}
+
+
+
+/*/////////////RETRO//////////*/
+
+.retro {
+  display:none;
+}
+
+.retro_show {
+  display:block;
+}
+
+.top-product-retro {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.small-screen-product img {
+  width: 100%;
+  border: 1px solid #636e72;
+  transition: 1s;
+}
+
+.small-screen-product img:hover {
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 1px 5px 15px 5px #39979C;
+}
+
+.product-picture-retro {
+  width: 55%;
+}
+.product-picture-retro img {
+  width: 100%;
+  ;
+}
+
+.bike-colors-retro img {
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+  margin-bottom: 80px;
+}
+
+.product-description-retro {
+  width: 40%;
+  align-content: center;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.prices-retro {
+  display: flex;
+  justify-content: center;
+}
+
+.old-price-retro {
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.actual-price-retro {
+  padding: 20px;
+  border: 1px solid #01b050;
+  border-radius: 100%;
+  background: #01b050;
+  color: #f7f1e3;
+}
+
+.buy-button-retro {
+  border: 1px solid #F70003;
+  background-color: #F70003;
+  border-radius: 5px;
+  color: #f7f1e3;
+  width: 70%;
+  padding: 10px 0;
+  font-size: 30px;
+  margin-top: 40px;
+  transition: .5s;
+}
+
+.buy-button-retro:hover {
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 1px 5px 15px 5px #F70003;
+}
+
+.botton-product-retro {
+  
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.botton-product-retro h3 {
+  font-size: 2rem;
+  color: #636e72;
+  border-bottom: 1px solid #636e72 ;
+}
+
+.bike-colors-retro {
+  
+  width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+ display: block;
+}
+
+.bike-colors-retro img{
+  width: 20%;
+  height: 10%;
+}
+
+.name-colors-retro {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid red;
+  
+}
+
+.name-colors retro h4{
+  width: 20%;
+  height: 10%;
+  margin-bottom: 50px;
+  margin: 0 auto;
+}
+
+.retro-moto {
+  transition: 1s;
+  padding: 0 40px;
+}
+
+.retro-moto:hover {
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 25%
+}
+
+/*/////////////ELECTRIC//////////*/
+
+.electric{
+  display: none;
+}
+
+.electric_show{
+  display: block;
+}
+
+
+.top-product-electric {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+.electric-main-pic {
+  width: 100%;
+}
+.electric-main-pic-notshow {
+  display: hidden;
+}
+
+
+.product-picture-electric {
+  width: 55%;
+}
+.product-picture-electric img {
+  width: 100%;
+  ;
+}
+
+.bike-colors-electric img {
+  width: 10px;
+  height: 10px;
+  margin-bottom: 80px;
+}
+
+.product-description-electric {
+  width: 40%;
+  align-content: center;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.prices-electric {
+  display: flex;
+  justify-content: center;
+}
+
+.old-price-electric {
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.actual-price-electric {
+  padding: 20px;
+  border: 1px solid #01b050;
+  border-radius: 100%;
+  background: #01b050;
+  color: #f7f1e3;
+}
+
+.buy-button-electric {
+  border: 1px solid #F70003;
+  background-color: #F70003;
+  border-radius: 5px;
+  color: #f7f1e3;
+  width: 70%;
+  padding: 10px 0;
+  font-size: 30px;
+  margin-top: 40px;
+  transition: .5s;
+}
+
+.buy-button:hover {
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 1px 5px 15px 5px #F70003;
+}
+
+.botton-product-electric {
+  
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.botton-product-electric h3 {
+  font-size: 2rem;
+  color: #636e72;
+  border-bottom: 1px solid #636e72 ;
+}
+
+.bike-colors-electric {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+ 
+}
+
+.bike-colors-electric img{
+  width: 20%;
+  height: 10%;
+}
+
+.name-colors-electric {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.name-colors-electric h4{
+  width: 100%;
+  height: 10%;
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+
+.electric-moto {
+  transition: 1s;
+  padding: 0 40px;
+}
+
+.electric-moto:hover {
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 25%
+}
+
+/*/////////////SPRINT//////////*/
+
+.sprint {
+  display:none;
+}
+
+.sprint_show {
+  display:block;
+}
+
+
+.top-product-sprint {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+.product-picture-sprint {
+  width: 55%;
+}
+.product-picture-sprint img {
+  width: 100%;
+  ;
+}
+
+.bike-colors-sprint img {
+  width: 10px;
+  height: 10px;
+  margin-bottom: 80px;
+}
+
+.product-description-sprint {
+  width: 40%;
+  align-content: center;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.prices-sprint {
+  display: flex;
+  justify-content: center;
+}
+
+.old-price-sprint {
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.actual-price-sprint {
+  padding: 20px;
+  border: 1px solid #01b050;
+  border-radius: 100%;
+  background: #01b050;
+  color: #f7f1e3;
+}
+
+.buy-button-sprint {
+  border: 1px solid #F70003;
+  background-color: #F70003;
+  border-radius: 5px;
+  color: #f7f1e3;
+  width: 70%;
+  padding: 10px 0;
+  font-size: 30px;
+  margin-top: 40px;
+  transition: .5s;
+}
+
+.buy-button:hover {
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 1px 5px 15px 5px #F70003;
+}
+
+.botton-product-sprint {
+  
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.botton-product-sprint h3 {
+  font-size: 2rem;
+  color: #636e72;
+  border-bottom: 1px solid #636e72 ;
+}
+
+.bike-colors-sprint {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+ 
+}
+
+.bike-colors-sprint img{
+  width: 20%;
+  height: 10%;
+}
+
+.name-colors-sprint {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.name-colors-sprint h4{
+  width: 100%;
+  height: 10%;
+  margin-bottom: 50px;
+  text-align: center;
+
+}
+
+.sprint-moto {
+  transition: 1s;
+  padding: 0 40px;
+}
+
+.sprint-moto:hover {
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 25%
+}
+
+
+/*/////////////PROFILE///////////*/
+
+
+
+.profile {
+  width: 50%;
+  margin: 0 auto;
+  display:none;
+}
+
+.profile_show {
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+.bar-level-0 {
+  width: 100%;
+  height: 2vh;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.moto-bar {
+  position: relative;
+  height: 2vh;
+  margin-bottom: -18px;
+  z-index: 10;
+}
+
+.progress-bar {
+  
+  display:flex;
+  justify-content: space-between;
+}
+
+.progress-bar h2 {
+ font-size: 90%;
+}
+
+.primary{
+  color: #201e1e  
+}
+
+.secondary {
+  color:#c8b7b7
+}
+
+.form-profile {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.form-profile #confirm-password {
+  margin-bottom: 50px;
+  
+}
+
+.type-form {
+  margin: 20px;
+}
+
+
+.trash{
+  margin-top:30px;
+  width: 17px;
+}
+
+
+
+.next{
+  width: 17%;
+  height: 5vh;
+  background:  #01b050 ;
+  color: white;
+  font-size: 25px;
+  border: 1px solid #01b050;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.reset {
+  width: 17%;
+  height: 5vh;
+  margin-right: 15px;
+  background: #d9d9d9;
+  color: #979797;
+  font-size: 25px;
+  border: 1px solid  #979797;
+  border-radius: 5px;
+
+}
+
+
+input {
+  width: 50%;
+  height: 3vh;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+}
+
+.input {
+  width: 50%;
+  height: 3vh;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+}
+
+.time-order {
+  display: none;
+}
+
+.time-order_show {
+  background: #ff8f94;
+  border: 1px solid grey;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 30%;
+  margin: 20px auto;
+}
+
+/*/////////////ADDRESS///////////*/
+
+.bar-level-33 {
+  width: 100%;
+  height: 2vh;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.address {
+  display:none;
+}
+
+.address_show {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.form-address{
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.grid-form-adrress{
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: auto auto;
+  margin-bottom: 50px;
+}
+
+.first-name{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.last-name {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.birthday{
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.addres1 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.address2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.postalCode{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+/*.country {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+*/
+
+.phone-number{
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.phone-number input {
+  width: 32%;
+  margin-left: -1%;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+}
+
+.phone-number select {
+  height: 3.35vh;
+  border-radius: 10%;
+  margin-right: -1px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+/*///////////////SHIPPING////////////*/
+
+.timeShipment {
+  color: red;
+}
+.shipping h3 {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.bar-level-66 {
+  width: 100%;
+  height: 2vh;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.shipping {
+  display:none;
+}
+
+.shipping_show {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-shipping {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.shipping-radio {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 40px 0;
+
+}
+
+.shipping-radio input{
+  width: 16px;
+  margin: 0 auto;
+}
+
+.shipping-radio label{
+  padding-top: 7px;
+  margin-left: -4%;
+}
+
+.shipping-radio input #free-shipment:before{
+  background: green;
+}
+
+input[type="radio"]:checked + label {
+  color: #0175FF;
+}
+
+input[type="checkbox"]:checked + label {
+  color: #0175FF;
+}
+
+#checkboxx {
+  width: 20px;
+  margin-bottom: 50px;
+  /*PREGUNTAR POR WIDTH=MARGIN*/
+}
+
+#addressText {
+  width: 20px;
+  margin-bottom: 50px;
+}
+
+.helmet-gift label {
+  font-size: 100%;
+}
+
+.helmet-gift {
+  display: none;
+}
+
+.helmet-gift_show {
+  text-align: center;
+  margin-bottom: 50px;
+ 
+}
+
+.shipping-radio label span {
+  color: red;
+}
+
+.shipping button {
+  margin-bottom: 100px;
+}
+
+.form-shipping button{
+  margin-bottom: 80px;
+}
+
+/*/////////////////////////PAYMENT DETAILS////////////////////////////////*/
+
+.payment-details {
+  display: none;
+}
+
+.payment-details_show {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bar-level-99 {
+  width: 100%;
+  height: 2vh;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+.payment-order {
+  width: 100%;
+  display: flex;
+
+}
+
+.photo-order {
+  width: 50%;
+  margin-top: 50px;
+
+}
+
+.payment-details-square {
+  width: 40%;
+  margin: 40px auto;
+  background: white;
+  border-radius: 20px;
+  height: 40%;
+  border: 1px solid midnightblue;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto;
+}
+
+.payment-details-square h3 {
+  grid-column: 1/7;
+  grid-row: 1/2;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  padding: 20px;
+}
+
+
+.bike {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.first {
+  grid-column: 3/5;
+  grid-row: 2/3;
+  text-align: center;
+  
+}
+
+.price1 {
+  grid-column: 5/6;
+  grid-row: 2/3;
+  text-align: center;
+}
+
+.helmet {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.second {
+  grid-column: 3/5;
+  grid-row: 3/4;
+  text-align: center;
+}
+.price2 {
+  grid-column: 5/6;
+  grid-row: 3/4;
+  text-align: center;
+}
+
+.gloves {
+  grid-column: 2/3;
+  grid-row: 4/5;
+
+}
+.third {
+  grid-column: 3/5;
+  grid-row: 4/5;
+  text-align: center;
+}
+.price3 {
+  grid-column: 5/6;
+  grid-row: 4/5;
+  text-align: center;
+}
+
+.truck {
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+.fourth {
+  grid-column: 3/5;
+  grid-row: 5/6;
+  text-align: center;
+}
+.price4 {
+  grid-column: 5/6;
+  grid-row: 5/6;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.total-amount {
+  grid-column: 3/5;
+  grid-row: 6/7;
+  text-align: center;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.total-price {
+  grid-column: 5/6;
+  grid-row: 6/7;
+  font-weight: bold;
+  font-size: 19px;
+  text-align: center;
+}
+
+.button-buy-now {
+  grid-column: 2/6;
+  grid-row: 7/9;
+  background: red;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 22px;
+  border-radius: 10px;
+  border: 3px solid red;
+  cursor: pointer;
+}
+
+.button-buy-now:hover {
+  cursor: pointer;
+  padding: 10px;
+  box-shadow: 1px 5px 15px 5px #F70003;
+}
+
+.mini-images {
+  padding-top: 10px;
+  width: 50px;
+  
+}
+
+.photo-order img {
+  width: 100%;
+}
+
+.payment-details-square img{
+  width: 20px;
+}
+/*/////////////////////////////////ORDER COMPLETED////////////////////////////////////////*/
+.order-completed {
+  display:none
+}
+
+.order-completed_show {
+  width: 50%;
+  margin: 0 auto;
+}
+.order-processed {
+  align-content: center;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.order-processed-image {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.order-completed-center {
+  text-align: center;
+}
+
+.payment-details h3{
+  margin-bottom: 50px;
+}
+
+/*************************HELMET AND GLOVES PICTURE**********************************/
+.helmet-picture {
+  height: ;
+  width: ;
+}
+
+.gloves-picture {
+  height: ;
+  width: ;
+}
